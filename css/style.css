@@ -1,20 +1,52 @@
-html {
-
-}
-
 body {
-	background: #eee;
-	margin: 0 auto;
-	padding: ;
+	background: yellow;
 }
 
+img {
+	max-height: 500px;
+}
 
+/*======== Carousel Styles ========*/
+.container-fluid.jumbotron {
+	margin-bottom: 0;
+}
 
+#carousel-example-generic {
+	padding: 0;
+}
+.carousel-inner {
+	max-height: 500px;
+	max-width: 100%;
+	background: red;
+	margin: 0;
+	padding: 0;
 
+}
+.glyphicon-chevron-left {
+	transition: all 1s ease-in-out;
+}
+.glyphicon-chevron-left:hover {
+	color:blue;
+}
+.carousel-control {
+	opacity: 0;
+}
+a.left.carousel-control {
+    margin-left: 0;
+	background: none;
+}
 
+a.right.carousel-control {
+	margin-right: 0;
+	background: none;
+}
 
-
-
+.carousel-indicators li {
+	background: black;
+}
+.carousel-indicators .active {
+	background: yellow;
+}
 
 
 
