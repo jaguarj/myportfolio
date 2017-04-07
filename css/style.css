@@ -2,11 +2,46 @@ body {
 	background: yellow;
 }
 
+/*======== Nav Styles ========*/
+
+.navbar-fixed-top {
+
+	background: #fff;
+	margin: 0;
+	padding: 0;
+	height: 20px;
+
+}
+
+
+.navbar.navbar-default.navbar-fixed-top {
+	background: red;
+
+
+}
+
+div.container  {
+	display: flex;
+	justify-content: flex-end;
+	background: yellow;
+	width: 100%;
+	padding: 1rem;
+
+}
+
+a.headerNavLinks {
+	padding: 10px;
+	text-decoration: none;
+	color: ;
+	font-size: 3rem;
+}
+
+/*======== Carousel Styles ========*/
+
 img {
 	max-height: 500px;
 }
 
-/*======== Carousel Styles ========*/
 .container-fluid.jumbotron {
 	margin-bottom: 0;
 }
@@ -17,7 +52,7 @@ img {
 .carousel-inner {
 	max-height: 500px;
 	max-width: 100%;
-	background: red;
+	background: #fff;
 	margin: 0;
 	padding: 0;
 
