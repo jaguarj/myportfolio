@@ -1,5 +1,6 @@
 html, body {
 	height: 100%;
+
 }
 
 body {
@@ -7,21 +8,20 @@ body {
 	margin: 0 auto;
 	padding-bottom: 70px;
 
+
 }
 
 header {
 	/*background: red;*/
 	height: 58px;
 
+
 }
 
 /*======== Nav Styles ========*/
 
 .navbar.navbar-default.navbar-fixed-top {
-	/*display: flex;
-	justify-content: center;
-*/	margin-bottom: 0;
-	background: none;
+    margin-bottom: 0;
 	height: 0;
 
 }
@@ -32,15 +32,17 @@ header {
 	width: 100%;
 	padding: 1.5rem;
 	background: #FFD017;
+
 	transition: all .5s ease-in-out;
 
 }
 .my-container:hover {
-	background: #FF9C0A;
+	background: #FF9C0A!important;
 
 }
 .container-fluid.jumbotron {
 	margin-top: 0;
+
 
 }
 
@@ -50,18 +52,12 @@ header {
 	flex-wrap: nowrap;
 	width: 200px;
 	font-size: 20px;
-	padding: 10px;
+	/*padding: 10px;*/
 	color: #fff;
 }
 
-/*.links {
-	display: flex-start;
-
-}*/
-
-
 .links {
-	padding-top: 14px;
+	padding-top: 6px;
 }
 
 a.headerNavLinks {
@@ -73,19 +69,24 @@ a.headerNavLinks {
 	text-transform: uppercase;
 
 }
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
 
 /*======== Carousel Styles ========*/
 
 /*<div id="carousel-example-generic" class="container-fluid carousel slide" data-ride="carousel">*/
 #carousel-example-generic {
-	/*background: red;*/
+
 /*	margin-top: 10px;*/
 }
 
 img {
 	max-width: 100%;
 	max-height: 500px;
+
 }
+
 
 .carousel-inner {
 	max-height: 500px;
@@ -93,6 +94,14 @@ img {
 	background: #fff;
 	margin: 0;
 	padding: 0;
+	transition: all .5s ease-in-out;
+
+
+}
+
+.carousel-inner:hover {
+	box-shadow: 1px 1px 20px 10px;
+
 
 }
 .glyphicon-chevron-left, .glyphicon-chevron-right {
@@ -121,8 +130,28 @@ a.right.carousel-control {
 	background: #FF9C0A;
 }
 
+main {
+	height: 100px;
+	background: #FF9C0A;
+}
 
-/*==== footer ====*/
+/*=== Row Content ===*/
+
+.row {
+	margin: 0 auto;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center;
+}
+
+.img-circle {
+	transition: .1s ease-in-out;
+}
+
+.img-circle:hover {
+	box-shadow: 1px 1px 10px 1px #FF9C0A;
+}
+/*==== Footer ====*/
 
 .navbar-bottom {
 	background: #FFD017;
