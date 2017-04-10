@@ -1,54 +1,58 @@
 body {
-	background: yellow;
+	/*background: yellow;*/
+	margin: 0 auto;
+}
+
+header {
+	/*background: red;*/
+	height: 80px;
 }
 
 /*======== Nav Styles ========*/
 
-.navbar-fixed-top {
-
-	background: #fff;
-	margin: 0;
-	padding: 0;
-	height: 20px;
-
-}
-
-
 .navbar.navbar-default.navbar-fixed-top {
-	background: red;
-
+	margin-bottom: 0;
+	background: none;
+	height: 0;
 
 }
 
-div.container  {
+.container  {
 	display: flex;
 	justify-content: flex-end;
-	background: yellow;
+	background: rgba(0, 0, 0, 0.1);
 	width: 100%;
-	padding: 1rem;
+	padding: 1.5rem;
 
 }
+.container-fluid.jumbotron {
+	margin-top: 0;
 
+}
 a.headerNavLinks {
-	padding: 10px;
+	padding-right: 10px;
 	text-decoration: none;
-	color: ;
-	font-size: 3rem;
+	font-size: 2rem;
 }
 
 /*======== Carousel Styles ========*/
 
+/*<div id="carousel-example-generic" class="container-fluid carousel slide" data-ride="carousel">*/
+#carousel-example-generic {
+	/*background: red;*/
+/*	margin-top: 10px;*/
+}
+
 img {
+	max-width: 100%;
 	max-height: 500px;
 }
 
 .container-fluid.jumbotron {
-	margin-bottom: 0;
+	background: blue;
 }
 
-#carousel-example-generic {
-	padding: 0;
-}
+
 .carousel-inner {
 	max-height: 500px;
 	max-width: 100%;
