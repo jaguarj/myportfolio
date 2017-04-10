@@ -1,11 +1,12 @@
-html {
-	/*background: #eee;*/
+html, body {
+	height: 100%;
 }
 
 body {
-	/*background: yellow;*/
+
 	margin: 0 auto;
-	/*background: #FFD017;*/
+	padding-bottom: 70px;
+
 }
 
 header {
@@ -30,7 +31,7 @@ header {
 	justify-content: space-between;
 	width: 100%;
 	padding: 1.5rem;
-	background-color: #FFD017;
+	background: #FFD017;
 	transition: all .5s ease-in-out;
 
 }
@@ -46,6 +47,7 @@ header {
 .icons {
 	display: flex;
 	justify-content: space-between;
+	flex-wrap: nowrap;
 	width: 200px;
 	font-size: 20px;
 	padding: 10px;
@@ -119,6 +121,20 @@ a.right.carousel-control {
 	background: #FF9C0A;
 }
 
+
+/*==== footer ====*/
+
+.navbar-bottom {
+	background: #FFD017;
+	height: 30px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	letter-spacing: .3rem;
+}
 
 
 /* Smartphones (portrait and landscape) ----------- */
