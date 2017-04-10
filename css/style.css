@@ -1,38 +1,75 @@
+html {
+	/*background: #eee;*/
+}
+
 body {
 	/*background: yellow;*/
 	margin: 0 auto;
+	/*background: #FFD017;*/
 }
 
 header {
 	/*background: red;*/
-	height: 80px;
+	height: 58px;
+
 }
 
 /*======== Nav Styles ========*/
 
 .navbar.navbar-default.navbar-fixed-top {
-	margin-bottom: 0;
+	/*display: flex;
+	justify-content: center;
+*/	margin-bottom: 0;
 	background: none;
 	height: 0;
 
 }
 
-.container  {
+.my-container {
 	display: flex;
-	justify-content: flex-end;
-	background: rgba(0, 0, 0, 0.1);
+	justify-content: space-between;
 	width: 100%;
 	padding: 1.5rem;
+	background-color: #FFD017;
+	transition: all .5s ease-in-out;
+
+}
+.my-container:hover {
+	background: #FF9C0A;
 
 }
 .container-fluid.jumbotron {
 	margin-top: 0;
 
 }
+
+.icons {
+	display: flex;
+	justify-content: space-between;
+	width: 200px;
+	font-size: 20px;
+	padding: 10px;
+	color: #fff;
+}
+
+/*.links {
+	display: flex-start;
+
+}*/
+
+
+.links {
+	padding-top: 14px;
+}
+
 a.headerNavLinks {
 	padding-right: 10px;
 	text-decoration: none;
-	font-size: 2rem;
+	font-size: 1.4rem;
+	color: #fff;
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+
 }
 
 /*======== Carousel Styles ========*/
@@ -48,11 +85,6 @@ img {
 	max-height: 500px;
 }
 
-.container-fluid.jumbotron {
-	background: blue;
-}
-
-
 .carousel-inner {
 	max-height: 500px;
 	max-width: 100%;
@@ -61,11 +93,11 @@ img {
 	padding: 0;
 
 }
-.glyphicon-chevron-left {
+.glyphicon-chevron-left, .glyphicon-chevron-right {
 	transition: all 1s ease-in-out;
 }
-.glyphicon-chevron-left:hover {
-	color:blue;
+.glyphicon-chevron-left:hover, .glyphicon-chevron-right:hover {
+	color: #FF9C0A;
 }
 .carousel-control {
 	opacity: 0;
@@ -81,10 +113,10 @@ a.right.carousel-control {
 }
 
 .carousel-indicators li {
-	background: black;
+	background: #FF9C0A;;
 }
 .carousel-indicators .active {
-	background: yellow;
+	background: #FF9C0A;
 }
 
 
