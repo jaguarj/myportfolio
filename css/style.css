@@ -73,10 +73,8 @@ a.headerNavLinks {
 
 /*======== Carousel Styles ========*/
 
-/*<div id="carousel-example-generic" class="container-fluid carousel slide" data-ride="carousel">*/
 #carousel-example-generic {
 
-/*	margin-top: 10px;*/
 }
 
 img {
@@ -142,7 +140,7 @@ main {
 	text-align: center;
 }
 
-/*#shape {
+#shape {
 	background: red;
 	height: 25px;
 	width: 25px;
@@ -151,11 +149,10 @@ main {
 }
 
 @keyframes box {
-	from {background: #000;}
-	to {background: #eee;}
-	from{background: yellow;}
-	to {background: #000;}
-}*/
+	from {background: yellow;}
+	to {background: blue;}
+
+}
 
 
 
