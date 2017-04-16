@@ -18,6 +18,8 @@ header {
 
 }
 
+
+
 /*======== Nav Styles ========*/
 
 .navbar.navbar-default.navbar-fixed-top {
@@ -39,7 +41,7 @@ header {
 	background: #FF9C0A!important;
 
 }
-.container-fluid.jumbotron {
+.container-fluid {
 	margin-top: 0;
 
 }
@@ -146,6 +148,7 @@ main {
 
 }
 
+/* Experimental Sytling */
 
 #shape {
 
@@ -154,6 +157,27 @@ main {
 
 }
 
+#cloud {
+	position: absolute;
+	z-index: -1;
+	height: 300px;
+	width: 500px;
+	background: url('../img/cloud.svg');
+	animation-name: cloud;
+	animation-duration: 10s;
+
+}
+
+@keyframes cloud {
+	from {
+		transform: translateX(-600px);
+	}
+	to {
+		transform: translateX(1700px);
+	}
+
+
+}
 .circle {
 	width: 100px;
 	padding: 50px 0;
