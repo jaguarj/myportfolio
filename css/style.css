@@ -33,12 +33,7 @@ header {
 
 /*======== BLue Div ========*/
 
-#upper {
-	height: 500px;
-	width: auto;
-	background: lightblue;
 
-}
 
 .my-container {
 
@@ -185,9 +180,11 @@ main {
 	width: auto;
 	height: 500px;
 	background-color: lightblue;
-	/*Storyboard maybe?*/
-	overflow: auto;
 
+	/*Storyboard maybe?*/
+/*	overflow: auto;*/
+
+	overflow: hidden;
 
 
 	border: 20px solid black;
@@ -195,7 +192,9 @@ main {
 }
 
 #upper {
-	background: red;
+
+/*	background: red;*/
+
 }
 
 #cloud1 {
