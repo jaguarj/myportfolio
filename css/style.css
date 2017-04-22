@@ -185,7 +185,11 @@ main {
 	width: auto;
 	height: 500px;
 	background-color: lightblue;
-	overflow: hidden;
+	/*Storyboard maybe?*/
+	overflow: auto;
+
+
+
 	border: 20px solid black;
 
 }
