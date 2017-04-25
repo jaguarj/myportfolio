@@ -1,22 +1,15 @@
 html, body {
 	height: 100%;
 	width: 100%;
-
-
 }
 
 body {
 	margin: 0 auto;
-
-
 }
 
 header {
 	height: 58px;
-
-
 }
-
 
 
 /*======== Nav Styles ========*/
@@ -27,26 +20,24 @@ header {
 
 }
 
-/*======== BLue Div ========*/
 
 
-
-.my-container {
+.myNavContainer {
 
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
 	padding: 1.5rem;
-	background: #FFD017;
+	background: transparent;
+/*	background: rgba(255,255,255,0.1);
+*/	/*background: #FFD017;*/
+/*	background: lightblue;
+*/
 	transition: all .5s ease-in-out;
-
 
 }
 
-
-
-
-.my-container:hover {
+.myNavContainer:hover {
 	background: #FF9C0A!important;
 
 }
@@ -70,7 +61,14 @@ header {
 
 }
 
+/* Clear Nav Bar*/
 
+.navbar-default.navbar-fixed-top {
+	/*background: rgba(255,255,255,0.1);*/
+	background: transparent;
+
+
+}
 
 a.headerNavLinks {
 	padding-right: 10px;
@@ -174,15 +172,13 @@ main {
 /*======== Clouds and Animations Styles ========*/
 #upper {
 
-
 }
 
 #middle {
 	width: auto;
-	height: 530px;
+	height: 718px;
+	margin-top: -100px;
 	background-color: lightblue;
-
-
 	/*Storyboard maybe?*/
 /*	overflow: auto;*/
 	overflow: hidden;
@@ -192,7 +188,7 @@ main {
 /*======== Sun Animation ========*/
 
 #sun {
-	position: absolute;
+	position: relative;
 	top: -100px;
 	left: -100px;
 	height: 300px;
@@ -222,44 +218,6 @@ main {
     from{-ms-transform:rotate(0deg);}
     to{-ms-transform:rotate(360deg);}
 }
-
-
-#rays {
-
-	position: absolute;
-	top: -80px;
-	left: -90px;
-	height: 300px;
-	width: 300px;
-	z-index: 3;
-	animation-name: rays;
-	animation-duration: 1s;
-	animation-iteration-count: infinite;
-	animation-timing-function: linear;
-
-}
-
-
-@keyframes rays {
-	from{-webkit-transform:rotate(0deg);}
-    to{-webkit-transform:rotate(360deg);}
-}
-
-@-moz-keyframes sun
-{
-    from{-moz-transform:rotate(0deg);}
-    to{-moz-transform:rotate(360deg);}
-}
-
-@-ms-keyframes spinnerRotate
-{
-    from{-ms-transform:rotate(0deg);}
-    to{-ms-transform:rotate(360deg);}
-}
-
-
-
-
 
 
 /*Maybe adjust this.*/
