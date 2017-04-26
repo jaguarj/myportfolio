@@ -17,8 +17,30 @@ header {
 .navbar.navbar-default.navbar-fixed-top {
     margin-bottom: 0;
 	height: 0;
+	background: red;
 
 }
+
+.navbar-default.navbar-fixed-top {
+	/*background: rgba(255,255,255,0.1);*/
+	background: transparent;
+
+
+}
+
+a.headerNavLinks {
+	padding-right: 10px;
+	text-decoration: none;
+	font-size: 1.6rem;
+	color: #fff;
+	letter-spacing: .3rem;
+	text-transform: uppercase;
+
+}
+.nav>li>a:hover, .nav>li>a:focus {
+    background-color: transparent;
+}
+
 
 
 
@@ -62,26 +84,6 @@ header {
 }
 
 /* Clear Nav Bar*/
-
-.navbar-default.navbar-fixed-top {
-	/*background: rgba(255,255,255,0.1);*/
-	background: transparent;
-
-
-}
-
-a.headerNavLinks {
-	padding-right: 10px;
-	text-decoration: none;
-	font-size: 1.4rem;
-	color: #fff;
-	letter-spacing: .3rem;
-	text-transform: uppercase;
-
-}
-.nav>li>a:hover, .nav>li>a:focus {
-    background-color: transparent;
-}
 
 /*======== Carousel Styles ========*/
 
@@ -176,7 +178,7 @@ main {
 
 #middle {
 	width: auto;
-	height: 718px;
+	height: 830px;
 	margin-top: -100px;
 	background-color: lightblue;
 	/*Storyboard maybe?*/
