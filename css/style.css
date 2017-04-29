@@ -5,6 +5,7 @@ html, body {
 
 body {
 	margin: 0 auto;
+
 }
 
 header {
@@ -20,6 +21,8 @@ header {
 	background: red;
 
 }
+
+/* Clear Nav Bar*/
 
 .navbar-default.navbar-fixed-top {
 	/*background: rgba(255,255,255,0.1);*/
@@ -83,7 +86,7 @@ a.headerNavLinks {
 
 }
 
-/* Clear Nav Bar*/
+
 
 /*======== Carousel Styles ========*/
 
@@ -173,6 +176,15 @@ main {
 
 /*======== Clouds and Animations Styles ========*/
 #upper {
+
+}
+/* Light blue cloud container */
+
+#under-construction {
+	text-align: center;
+	position: relative;
+	top: 400px;
+
 
 }
 
