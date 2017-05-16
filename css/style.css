@@ -15,21 +15,27 @@ header {
 
 /*======== Nav Styles ========*/
 
-.navbar.navbar-default.navbar-fixed-top {
-    margin-bottom: 0;
-	height: 0;
-	background: red;
-
-}
 
 /* Clear Nav Bar*/
-
-.navbar-default.navbar-fixed-top {
-	/*background: rgba(255,255,255,0.1);*/
+.navbar {
+	position: relative;
+	z-index: 2;
+    margin-bottom: 0;
+	height: 0;
 	background: transparent;
-
-
+	transition: all .5s ease-in-out;
 }
+
+.navbar:hover {
+	background: #FF9C0A;
+}
+
+/*.navbar-default.navbar-fixed-top:hover {
+	background: rgba(255,255,255,0.1);
+	background: blue;
+
+
+}*/
 
 a.headerNavLinks {
 	padding-right: 10px;
@@ -44,11 +50,7 @@ a.headerNavLinks {
     background-color: transparent;
 }
 
-
-
-
 .myNavContainer {
-
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
@@ -62,10 +64,10 @@ a.headerNavLinks {
 
 }
 
-.myNavContainer:hover {
+/*.myNavContainer:hover {
 	background: #FF9C0A!important;
 
-}
+}*/
 .container-fluid {
 	margin-top: 0;
 
@@ -209,7 +211,7 @@ main {
 	left: -100px;
 	height: 300px;
 	width: 300px;
-	z-index: 2;
+	z-index: 1;
 	animation-name: sun;
 	animation-duration: 10s;
 	animation-iteration-count: infinite;
