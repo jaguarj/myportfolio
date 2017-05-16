@@ -788,18 +788,7 @@ a.right.carousel-control {
 
 }
 
-/*=== Img Content non-carousel ===*/
 
-.img {
-	height: 200px; width: 200px;
-	transition: .4s ease-in-out;
-
-}
-
-.img:hover {
-	box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.7);
-	transform: scale(1.05)
-}
 
 
 main {
@@ -874,13 +863,60 @@ main {
 	margin: 0;
 }
 
+img#going-places {
+	border-radius: 50%;
+	background: transparent;
+	height: 200px;
+	width: 200px;
+	transition: all 1s ease-in-out;
+
+
+}
+
+img#going-places:hover {
+	transform: rotate(360deg);
+}
 
 
 
+/*=== Img Content non-carousel ===*/
+
+.img {
+	height: 200px; width: 200px;
+	transition: .4s ease-in-out;
+
+}
+
+.img:hover {
+	box-shadow: 1px 1px 8px 1px rgba(0,0,0,0.7);
+	transform: scale(1.05)
+}
+
+#contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FF9C0A;
+	height: 10rem;
+}
 
 
+#contact-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 2rem;
+	letter-spacing: 2px;
 
+}
 
+#contact-content h1 {
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0;
+}
 
 
 
