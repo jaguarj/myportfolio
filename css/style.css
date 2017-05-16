@@ -76,7 +76,7 @@ a.headerNavLinks {
 
 .icons {
 	display: flex;
-	justify-content: space-between;
+	justify-content: space-around;
 	flex-wrap: nowrap;
 	width: 200px;
 	font-size: 20px;
@@ -906,6 +906,7 @@ img#going-places:hover {
 	align-items: center;
 	justify-content: center;
 	color: white;
+	/*margin-top: 200px;*/
 	padding: 2rem;
 	letter-spacing: 2px;
 
@@ -915,7 +916,8 @@ img#going-places:hover {
 	color: white;
 	letter-spacing: 2px;
 	text-align: center;
-	margin: 0;
+	margin-top: 0;
+	padding-top: 2rem;
 }
 
 
@@ -924,7 +926,7 @@ img#going-places:hover {
 /*==== Footer ====*/
 
 .navbar-bottom {
-	background: #FFD017;
+	background:  #FF9C0A;
 	height: 30px;
 }
 
