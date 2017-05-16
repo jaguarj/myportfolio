@@ -17,6 +17,7 @@ header {
 
 
 /* Clear Nav Bar*/
+
 .navbar {
 	position: relative;
 	z-index: 2;
@@ -272,7 +273,6 @@ main {
 }
 
 #cloud2 {
-
 	position: relative;
 	top: -90px;
 	z-index: 2;
@@ -584,13 +584,13 @@ main {
 
 /* Rocket Ship */
 
-#rocket {
+#rocket  {
 	position: absolute;
-	top: 200px;
-	left: 13%;
+	top: 160px;
+	left: 40%;
 	z-index: 6;
-	height: 600px;
-	width: 1000px;
+	/*height: 600px;*/
+	width: 250px;
 
 }
 
@@ -598,11 +598,12 @@ main {
 
 #blue-cloud {
 	position: absolute;
-	top: 532px;
+	top: 535px;
 	/*left: 13%;*/
 	z-index: 6;
 	height: 100px;
-	width: 1344px;
+	/*width: 1344px;*/
+	width: 100.01%;
 
 }
 
@@ -646,12 +647,16 @@ main {
 
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 320px) {
+
 /* Styles */
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 /* Styles */
+
+
+
 }
 
 /* iPads (landscape) ----------- */
