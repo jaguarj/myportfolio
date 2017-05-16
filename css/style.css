@@ -847,17 +847,32 @@ main {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	font-size: 10rem;
 	color: white;
 	padding: 2rem;
 	letter-spacing: 2px;
-	/*border: 2px solid black;*/
 }
 
-#about-cont
+#projects {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background: #FF9C0A;
+	height: 10rem;
+}
 
 
+#projects-content {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 
+#projects-content h1 {
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+	margin: 0;
+}
 
 
 
