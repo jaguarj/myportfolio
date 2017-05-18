@@ -31,6 +31,10 @@ header {
 	background: #FF9C0A;
 }
 
+
+ /*===== Do not uncomment after autoprefixing =====*/
+
+
 /*.navbar-default.navbar-fixed-top:hover {
 	background: rgba(255,255,255,0.1);
 	background: blue;
@@ -57,6 +61,8 @@ a.headerNavLinks {
 	width: 100%;
 	padding: 1.5rem;
 	background: transparent;
+
+
 /*	background: rgba(255,255,255,0.1);
 */	/*background: #FFD017;*/
 /*	background: lightblue;
