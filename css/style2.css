@@ -1056,25 +1056,19 @@ a.right.carousel-control {
 #rocket  {
 	position: absolute;
 	top: 160px;
-	left: 40%;
+	/*left: 40%;*/
 	z-index: 6;
 	/*height: 600px;*/
-	width: 250px;
+	/*width: 250px;*/
+
+	left: 50%;
+	margin-left: -100px;
+	width: 200px;
 
 }
 
 /* Blue Coud */
 
-#blue-cloud {
-	position: absolute;
-	top: 535px;
-	/*left: 13%;*/
-	z-index: 6;
-	height: 100px;
-	/*width: 1344px;*/
-	width: 100.01%;
-
-}
 
 #big-cloud {
 	position: absolute;
@@ -1083,7 +1077,7 @@ a.right.carousel-control {
 	z-index: 1;
 	height: 100px;
 	/*width: 1344px;*/
-	width: 100.01%;
+	width: 100%;
 
 }
 
