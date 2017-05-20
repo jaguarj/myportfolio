@@ -1056,17 +1056,42 @@ a.right.carousel-control {
 
 #rocket  {
 	position: absolute;
-	top: 160px;
+	/*top: 160px;*/
 	/*left: 40%;*/
 	z-index: 6;
 	/*height: 600px;*/
 	/*width: 250px;*/
 
-	left: 50%;
-	margin-left: -100px;
-	width: 200px;
+	/*left: 50%;*/
+	margin-left: -300px;
+	width: 700px;
+	animation-name: rocket;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+	animation-direction: normal;
 
 }
+
+
+
+
+@-webkit-keyframes rocket {
+	from {
+		-webkit-transform: translateX(-300px);
+		        transform: translateX(-300px);
+		        top: 350px;
+
+	}
+	to {
+		-webkit-transform: translateX(3000px);
+		        transform: translateX(3000px);
+		        top: 10px;
+	}
+
+}
+
+
 
 /* Blue Coud */
 
@@ -1185,7 +1210,8 @@ main {
 
 img#going-places {
 	border-radius: 50%;
-	background: transparent;
+	/*background: transparent;*/
+	background: blue;
 	height: 200px;
 	width: 200px;
 	-webkit-transition: all 1s ease-in-out;
